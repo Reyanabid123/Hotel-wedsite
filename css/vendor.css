@@ -26,7 +26,8 @@ div.datetime-container {
   margin: 5px 0;
   position: relative;
   text-align: center;
-  user-select: none
+  user-select: none;
+  -webkit-user-select: none
 }
 
 div.datetime-container button.date,
@@ -341,6 +342,7 @@ div.picker button.confirm {
   justify-content: center;
   align-items: center;
   user-select: none;
+  -webkit-user-select: none;
 }
 
 .chocolat-wrapper .chocolat-right {
